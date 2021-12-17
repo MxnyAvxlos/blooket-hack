@@ -141,7 +141,7 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
 
             });
 
-            var totalValue = Number("0");
+            var totalValue = Number("10");
 
             for (const [blook, quant] of Object.entries(count)) {
                 totalValue += (blookValues[blook]) * quant;
